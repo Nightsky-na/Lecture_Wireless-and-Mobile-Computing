@@ -4,13 +4,21 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is one of the labs for the course "Mobile Application Development" at the Mahidol University.
 
-A few resources to get you started if this is your first Flutter project:
+## How to run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone this repository
+2. Open the project in Android Studio or Visual Studio Code
+3. Run the project using the emulator or a real device
+4. Enjoy!
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter run
+```
+
+## Screenshots
+
+![Screenshot 1](./image-readme/Screenshot_application.png)
+
+![Screenshot 2](./image-readme/Screenshot_mobileApp.png)

@@ -85,17 +85,19 @@ class _CounterState extends State<Counter> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          // [widget] is the property of the State class that stores
-          // the instance of the [StatefulWidget] ([Counter] in our case)
-          // Id 
-          Text(
-            widget.id,
-            style: const TextStyle(
-              color: Color(0xFF000000),
-              fontSize: 20.0,
+          Expanded(
+            child: Text(
+              widget.id,
+              style: const TextStyle(
+                color: Color(0xFF000000),
+                fontSize: 20.0,
+              ),
+              overflow: TextOverflow.ellipsis,
             ),
           ),
-          _CounterLabel(widget._name),
+          Expanded(
+            child: _CounterLabel(widget._name),
+          ),
           _CounterButton(
             count,
             onPressed: () {
@@ -109,6 +111,7 @@ class _CounterState extends State<Counter> {
     );
   }
 }
+
 
 class _CounterLabel extends StatelessWidget {
   static const textStyle = TextStyle(
