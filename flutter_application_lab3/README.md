@@ -19,6 +19,6 @@ flutter run
 
 ## Screenshots
 
-![Screenshot 1](./image-readme/Screenshot_application.png)
+![Screenshot 1](./image-readme/Screenshot_application_6388154.png) 
 
-![Screenshot 2](./image-readme/Screenshot_mobileApp.png)
+![Screenshot 2](./image-readme/Screenshot_mobileApp_6388154.png)
